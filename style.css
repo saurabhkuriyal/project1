@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/back.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+}
+.im img{
+    width: 200px;
+    cursor: pointer;
+}
+.buttons button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor:pointer
+}
+.content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.signup input{
+    flex:1;
+    border:0;
+    outline: 0;
+    margin-left: 20px;
+}
+.signup button{
+    background: #db0001;
+    border:0;
+    outline: 0;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.feat{
+    padding: 50px 12px;
+    font-size: 22px;
+
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width:90%;
+    margin: auto;
+}
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 9rem;
+    background-color: black;
+}
+.section1_text {
+    color: white;
+    font-family: "Netflix Sans",Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section1_text h1{
+    font-size: 3rem;
+    font-weight: 900;
+    /* text-wrap: nowrap; */
+    font-family: "Netflix Sans",Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.section1_text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.section1_image img{
+    width: 27rem;
+}
+
+a{
+    color: rgba(255,255,255,0.7);
+}
+table{
+    margin: 10px 151px;
+    height: 270px;
+}
+#lang{
+    background: transparent;
+    color: white;
+    width: 91px;
+    border-radius: 5px;
+    height: 34px;
+}
+/* tr{
+    display: flex;
+} */
+td{
+    width: 300px;
+}
